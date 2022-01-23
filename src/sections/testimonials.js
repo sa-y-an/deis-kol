@@ -14,7 +14,7 @@ const data = [
     id: 1,
     logo: uber,
     author: 'By Denny Albuz, Adviser of Paypal',
-    quote: `“Whatever we create in Qwilr looks absolutely brilliant. It helps show our work in the best light, and is downright impressive when clients see a Qwilr Page we have made for them.”`,
+    quote: `“IEEE DEIS Kolkata Chapter, the first of its kind in India, has been formed on 14th May 2012.”`,
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const data = [
     id: 3,
     logo: paypal,
     author: 'By Denny Albuz, Adviser of Paypal',
-    quote: `“Whatever we create in Qwilr looks absolutely brilliant. It helps show our work in the best light, and is downright impressive when clients see a Qwilr Page we have made for them.”`,
+    quote: `“IEEE DEIS Kolkata Chapter, the first of its kind in India, has been formed on 14th May 2012.”`,
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ const data = [
     id: 5,
     logo: dribbble,
     author: 'By Denny Albuz, Adviser of Paypal',
-    quote: `“Whatever we create in Qwilr looks absolutely brilliant. It helps show our work in the best light, and is downright impressive when clients see a Qwilr Page we have made for them.”`,
+    quote: `“IEEE DEIS Kolkata Chapter, the first of its kind in India, has been formed on 14th May 2012.”`,
   },
 ];
 
