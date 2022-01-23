@@ -4,6 +4,7 @@
 
 - Landing page for IEEE DEIS 
 - Build using gatsby
+- Build using [theme-ui](https://theme-ui.com/)
 
 ### Installation 
 
