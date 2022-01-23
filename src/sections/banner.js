@@ -11,7 +11,8 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <SectionHeading
             sx={styles.heading}
-            title="Creativity starts with viewing the whole world differently"
+            title="Dielectrics & Electrical Insulation Chapter of 
+            IEEE Kolkata Section"
             description="A service agency with customer satisfaction"
           />
           <Box sx={styles.illustration}>
