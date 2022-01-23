@@ -6,8 +6,8 @@ import LogoSvg from 'components/icons/logo';
 
 export default function Logo({ isSticky, footer, ...props }) {
   return (
-    <Link path="/" sx={styles.logo} {...props}>
-      <LogoSvg />
+    <Link path="/" >
+      <img src="/logo.png" alt="banner" height="50%" width="50%"/>
     </Link>
   );
 }

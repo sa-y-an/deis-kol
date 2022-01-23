@@ -25,11 +25,11 @@ export default function Header() {
                     ))}
                   </Box>
                   <Button variant="text" sx={styles.getStartedDesktop}>
-                    Get Started
+                    Know More
                   </Button>
                 </Box>
                 <Button variant="text" sx={styles.getStartedMobile}>
-                  Get Started
+                  Know More
                 </Button>
                 <NavbarDrawer />
               </Box>
