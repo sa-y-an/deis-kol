@@ -36,7 +36,7 @@ const styles = {
     color: 'heading',
     fontSize: [1, null, null, 2],
     lineHeight: [1.58, 1.58, 1.58, 2.2],
-    maxWidth: ['none', 'none', 'none', 'none', 490],
+    maxWidth: ['none', 'none', 'none', 'none', "80vw"],
     margin: '15px auto 0',
   },
 };

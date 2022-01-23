@@ -42,10 +42,16 @@ const Services = () => {
           IEEE is organized into 39 societies and 5 technical councils representing the wide range of technical interests. DEIS is the Dielectrics and Electrical Insulation Society whose field of interest includes the study and application of dielectrics from the molecular level, through nano-structured materials, to insulation systems in industrial, commercial, and power system equipment, to emerging applications such as those at high power levels and in biological and other small-scale systems. DEIS supports the entire scope of this field from advancing the basic science, to enhancing the ability of practicing engineers to use emerging dielectric materials, to the development of standards for the prudent application of existing and new insulation systems
           "
         />
+
+        <hr />
+        <br />
+
         <Box sx={styles.contentWrapper}>
           {data?.map((item) => (
             <Service key={item.id} item={item} />
           ))}
+          <br/>
+          <br/>
         </Box>
       </Container>
     </Box>
@@ -61,7 +67,7 @@ const styles = {
     pb: [7, 7, 7, 9, 9, 10, 11],
   },
   heading: {
-    maxWidth: [null, null, null, 455, 660],
+    maxWidth: [null, null, null, 1455, 1660],
     mb: [6, null, null, 8, null, 9, 13],
   },
   contentWrapper: {
@@ -69,10 +75,10 @@ const styles = {
     display: 'grid',
     justifyContent: ['center', null, null, 'unset'],
     gridTemplateColumns: [
-      'repeat(1, 285px)',
+      // 'repeat(1, 285px)',
       'repeat(1, 325px)',
       'repeat(1, 285px)',
-      'repeat(2, 1fr)',
+      'repeat(1, 1fr)',
     ],
   },
 };

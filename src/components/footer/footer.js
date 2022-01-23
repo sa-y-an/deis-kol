@@ -21,12 +21,31 @@ export default function Footer() {
               <Link path="#!">Privacy</Link>
             </Box>
             <Text as="p" sx={styles.copyright}>
-              Copyright by {new Date().getFullYear()} RedQ, Inc
+              Build by &copy; <a href="https://github.com/sa-y-an/deis" target="_blank">IEEE SB NITDgp 2022</a>
             </Text>
           </Box>
-          {menuItems.map(({ id, title, items }) => (
-            <Widget key={id} title={title} items={items} />
-          ))}
+            <div className="container">
+              <h2>
+                Contact Info
+              </h2>
+              <ul>
+                <li> Email <br/> sivaji@ee.jdvu.ac.in  </li>
+                <li>
+                  Phone <br/> +91 33 2414 6948
+                </li>
+              </ul>
+            </div>
+
+            <div className="container">
+              <h2>
+                Location 
+              </h2>
+              <p>
+              Flat No. 1E, Swati Kunj,
+              3/1A Paddapukur Road
+              Kolkata 700 092, India	
+              </p>
+            </div>
         </Box>
       </Container>
     </Box>
