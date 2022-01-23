@@ -59,7 +59,7 @@ const Blog = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Popular blog post we update everyday"
+          title="Our popular and successfull events"
           description="Focus only on the meaning, we take care of the design. As soon as the meeting end you can export in one click."
         />
         <Masonry options={masonryOptions} sx={styles.postContainer}>

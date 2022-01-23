@@ -12,34 +12,10 @@ import dribbble from 'assets/images/logos/dribbble.png';
 const data = [
   {
     id: 1,
-    logo: uber,
-    author: 'By Denny Albuz, Adviser of Paypal',
-    quote: `“IEEE DEIS Kolkata Chapter, the first of its kind in India, has been formed on 14th May 2012.”`,
+    author: 'leaded by Dr. Chakravorti',
+    quote: `“IEEE DEIS Kolkata Chapter, the first of its kind in India, was formed on 14th May 2012.”`,
   },
-  {
-    id: 2,
-    logo: google,
-    author: 'By Denny Albuz, Adviser of Paypal',
-    quote: `“Qwilr Page we have made for them. Whatever we create in Qwilr looks absolutely brilliant. It helps show our work in the best light, and is downright impressive when clients see a”`,
-  },
-  {
-    id: 3,
-    logo: paypal,
-    author: 'By Denny Albuz, Adviser of Paypal',
-    quote: `“IEEE DEIS Kolkata Chapter, the first of its kind in India, has been formed on 14th May 2012.”`,
-  },
-  {
-    id: 4,
-    logo: microsoft,
-    author: 'By Denny Albuz, Adviser of Paypal',
-    quote: `“Qwilr Page we have made for them. Whatever we create in Qwilr looks absolutely brilliant. It helps show our work in the best light, and is downright impressive when clients see a”`,
-  },
-  {
-    id: 5,
-    logo: dribbble,
-    author: 'By Denny Albuz, Adviser of Paypal',
-    quote: `“IEEE DEIS Kolkata Chapter, the first of its kind in India, has been formed on 14th May 2012.”`,
-  },
+
 ];
 
 const Testimonials = () => {
@@ -52,7 +28,7 @@ const Testimonials = () => {
           tabPosition="bottom"
         >
           {data?.map((item) => (
-            <TabPane key={item.id} tab={<Image src={item.logo} alt="logo" />}>
+            <TabPane key={item.id} >
               <Box as="blockquote">
                 {item.quote}
                 <Text as="span" sx={styles.author}>

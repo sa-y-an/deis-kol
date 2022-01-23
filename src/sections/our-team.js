@@ -221,7 +221,7 @@ const OurTeam = () => {
         <SectionHeading
           sx={styles.heading}
           title="Meet our superheros"
-          description="Build an incredible workplace and grow your business with Gusto’s all-in-one platform with amazing contents."
+          description="Ones who work day in and out to maintain the society !"
         />
       </Container>
       <Box

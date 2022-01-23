@@ -24,8 +24,8 @@ const SubscribeUs = () => {
         <Box sx={styles.contentWrapper}>
           <SectionHeading
             sx={styles.heading}
-            title="Like our service? Subscribe us"
-            description="We have more than thousand of creative entrepreneurs and stat joining our business"
+            title="Like our service? Join Us"
+            description="We have more than thousand of creative ideas and opportunities waiting to boost your career !"
           />
           <Box as="form" sx={styles.subscribe} onSubmit={handleSubmit}>
             <Flex sx={styles.inputGroup}>

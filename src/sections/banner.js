@@ -13,11 +13,11 @@ const Banner = () => {
             sx={styles.heading}
             title="Dielectrics & Electrical Insulation Chapter of 
             IEEE Kolkata Section"
-            description="A service agency with customer satisfaction"
+            description="Building world’s premier standards for Dielectrics and Insulation"
           />
           <Box sx={styles.illustration}>
             <Box sx={styles.buttonWrapper}>
-              <Button>Get Started</Button>
+              <Button href="https://google.com">Visit IEEE DEIS</Button>
             </Box>
             <Image src={illustration} alt="illustration" />
           </Box>
