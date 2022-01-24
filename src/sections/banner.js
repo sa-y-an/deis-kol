@@ -3,6 +3,7 @@ import { jsx, Box, Container, Button, Image } from 'theme-ui';
 import { rgba } from 'polished';
 import SectionHeading from 'components/section-heading';
 import illustration from 'assets/images/banner-illustration.png';
+import {Link} from '../components/link';
 
 const Banner = () => {
   return (
@@ -17,7 +18,11 @@ const Banner = () => {
           />
           <Box sx={styles.illustration}>
             <Box sx={styles.buttonWrapper}>
-              <Button href="https://google.com">Visit IEEE DEIS</Button>
+              <Button>
+                <Link to="https://ieeedeis.org/" sx={{color:"white",textDecoration:"none"}}>
+                  Visit IEEE DEIS
+                </Link>
+              </Button>
             </Box>
             <Image src={illustration} alt="illustration" />
           </Box>
