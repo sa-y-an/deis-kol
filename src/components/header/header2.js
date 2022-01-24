@@ -2,7 +2,7 @@
 import { jsx, Box, Container, Button } from 'theme-ui';
 import Sticky from 'react-stickynode';
 import Logo from 'components/logo';
-import { NavLink } from 'components/link';
+import { Link , NavLink} from 'components/link';
 import { DrawerProvider } from 'contexts/drawer/drawer-provider';
 import NavbarDrawer from './navbar-drawer';
 import menuItems from './header.data';
@@ -17,15 +17,25 @@ export default function Header() {
               <Box sx={styles.headerInner}>
                 <Logo sx={styles.logo} />
                 <Box as="nav" sx={styles.navbar} className="navbar">
-                  <Box as="ul" sx={styles.navList}>
-                    <li>
-                      <NavLink label="Events">  </NavLink>
-                    </li>
-                    
-                  </Box>
-                  <Button variant="text" sx={styles.getStartedDesktop}>
-                    Know More
-                  </Button>
+                <Box as="ul" sx={styles.navList}>
+                  <li>
+                  <Link label="Events" path="/activities" 
+                  p={2} sx={{ color:"black" , textDecorationLine:"none" }}></Link>
+                  </li>
+                  <li>
+                  <Link label="Members" path="/members"
+                  p={2} sx={{ color:"black" , textDecorationLine:"none" }}></Link>
+                  </li>
+                  <li>
+                  <Link label="Notices" path="/notices"
+                  p={2} sx={{ color:"black" , textDecorationLine:"none" }}></Link>
+                  </li>
+                  <li>
+                  <Link label="Annual Reports" path="/reports"
+                  p={2} sx={{ color:"green" , textDecorationLine:"none" }}></Link>
+                  </li>
+                </Box>
+                  
                 </Box>
                 <Button variant="text" sx={styles.getStartedMobile}>
                   Know More

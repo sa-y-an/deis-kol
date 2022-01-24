@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from '../components/layout.js'
+import Layout from '../components/Layout2.js'
 import { Container} from 'theme-ui';
 
 export default function notices() {
