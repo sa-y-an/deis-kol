@@ -15,4 +15,8 @@ export default [
     path: 'blog',
     label: 'Activites',
   },
+  {
+    path: "/activites",
+    label: "Events"
+  }
 ];
