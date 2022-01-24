@@ -13,7 +13,7 @@ export default function members() {
               <h2>
                 Members 
               </h2>
-              <div className="container" >
+              <div className="container" sx={styles.cards}>
               <Flex>
                   {posts && posts.map( (post) => ( 
                     <Box p={2}  >
@@ -21,7 +21,6 @@ export default function members() {
                       sx={{
                         maxWidth: 256,
                       }}
-                      className="cards"
                       >
                       <Image src={post.image} />
                       <Text>
@@ -48,3 +47,18 @@ export default function members() {
   );
 }
 
+const styles = {
+  cards: {
+    primary: {
+      padding: 2,
+      borderRadius: 4,
+      boxShadow: '0 0 8px rgba(0, 0, 0, 0.125)',
+    },
+    compact: {
+      padding: 1,
+      borderRadius: 2,
+      border: '1px solid',
+      borderColor: 'muted',
+    },
+  },
+}

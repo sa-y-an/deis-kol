@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx, Box, Container, Image, Text } from 'theme-ui';
+import { jsx, Box, Container, Text } from 'theme-ui';
 import Tabs, { TabPane } from 'rc-tabs';
 import { rgba } from 'polished';
 import quote from 'assets/images/icons/quote.png';
