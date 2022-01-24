@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `IEEE DEIS`,
+    description: `This is the official home page of the IEEE Dielectrics and Electrical Insulation Society with information, conferences and news related to the industry of Kolkata Section.`,
+    author: `@sa-y-an`,
   },
   plugins: [
     `gatsby-plugin-theme-ui`,
