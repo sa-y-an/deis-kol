@@ -14,35 +14,35 @@ const data = [
     id: 1,
     icon: icon4,
     moreLink: '#learn-more',
-    title: '3D modeling & art',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+    title: 'AGM',
+    description: `The First Annual General Meeting of the Dielectrics & Electrical Insulation Chapter of IEEE Kolkata Section will be held on Thursday, January 17, 2013 at 6-15 PM.`,
   },
   {
     id: 2,
     icon: icon5,
     moreLink: '#learn-more',
-    title: 'Digital promotion',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+    title: 'Conferences',
+    description: `This is the flagship event of the chapter, which is in line with the present day requirements in the global scenario of various condition assessment techniques for a variety of electrical systems.`
   },
   {
     id: 3,
     icon: icon6,
     moreLink: '#learn-more',
-    title: 'Business Enterprise',
+    title: 'Technical Meeting',
     description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
   },
   {
     id: 4,
     icon: icon7,
     moreLink: '#learn-more',
-    title: 'Marketing & advertising',
+    title: 'Past Program',
     description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
   },
   {
     id: 5,
     icon: icon8,
     moreLink: '#learn-more',
-    title: 'Ultimate development',
+    title: 'Miscellaneous',
     description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
   },
   {
@@ -57,11 +57,13 @@ const data = [
 const OtherServices = () => {
   return (
     <Box as="section" sx={styles.section}>
+      <br />
+      <br />
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Other services you must appreciate"
-          description="Focus only on the meaning, we take care of the design. As soon as the meeting end you can export in one click into your preferred."
+          title="Notices"
+          description="Find notice you are looking for from the following categories"
         />
         <Box sx={styles.contentWrapper}>
           {data?.map((item) => (

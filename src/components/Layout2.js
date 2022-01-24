@@ -1,10 +1,18 @@
 import React from 'react';
 import Header from './header/header2.js'
 
-export default function Layout2() {
+export default function Layout2({children}) {
   return (
-      <Header>
-
-      </Header>
+    <React.Fragment>
+      <Header /> 
+        <main
+          sx={{
+            variant: 'layout.main',
+          }}
+        >
+          {children}
+        </main>
+      </React.Fragment>
+      
   );
 }
