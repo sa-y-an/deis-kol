@@ -3,11 +3,11 @@ import { jsx, Box, Container, Image, Text } from 'theme-ui';
 import Tabs, { TabPane } from 'rc-tabs';
 import { rgba } from 'polished';
 import quote from 'assets/images/icons/quote.png';
-import uber from 'assets/images/logos/uber.png';
-import google from 'assets/images/logos/google.png';
-import paypal from 'assets/images/logos/paypal.png';
-import microsoft from 'assets/images/logos/microsoft.png';
-import dribbble from 'assets/images/logos/dribbble.png';
+// import uber from 'assets/images/logos/uber.png';
+// import google from 'assets/images/logos/google.png';
+// import paypal from 'assets/images/logos/paypal.png';
+// import microsoft from 'assets/images/logos/microsoft.png';
+// import dribbble from 'assets/images/logos/dribbble.png';
 
 const data = [
   {
