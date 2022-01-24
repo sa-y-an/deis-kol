@@ -31,9 +31,12 @@ export default function Header() {
                   p={2} sx={{ color:"black" , textDecorationLine:"none" }}></Link>
                   </li>
                   <li>
-                  <Link label="Annual Reports" path="/reports"
-                  p={2} sx={{ color:"green" , textDecorationLine:"none" }}></Link>
+                    <Button>
+                    <Link label="Annual Reports" path="/reports"
+                    p={2} sx={{ color:"white" , textDecorationLine:"none" }}></Link>
+                    </Button>
                   </li>
+                  
                 </Box>
                   
                 </Box>

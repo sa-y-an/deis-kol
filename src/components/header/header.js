@@ -2,7 +2,7 @@
 import { jsx, Box, Container, Button } from 'theme-ui';
 import Sticky from 'react-stickynode';
 import Logo from 'components/logo';
-import { NavLink } from 'components/link';
+import { NavLink, Link } from 'components/link';
 import { DrawerProvider } from 'contexts/drawer/drawer-provider';
 import NavbarDrawer from './navbar-drawer';
 import menuItems from './header.data';
@@ -25,11 +25,11 @@ export default function Header() {
                     ))}
                   </Box>
                   <Button variant="text" sx={styles.getStartedDesktop}>
-                    Know More
+                    <Link label="Notices" p={3} sx={{bg:"primary", color:"white", textDecoration:"none", borderRadius:"5px"}} path="/notices">Notices</Link>
                   </Button>
                 </Box>
                 <Button variant="text" sx={styles.getStartedMobile}>
-                  Know More
+                <Link label="Notices" sx={{ color:"primary", textDecoration:"none"}} path="/notices">Notices</Link>
                 </Button>
                 <NavbarDrawer />
               </Box>

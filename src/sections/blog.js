@@ -7,6 +7,8 @@ import thumb1 from 'assets/images/blog/1.png';
 import thumb2 from 'assets/images/blog/2.png';
 import thumb3 from 'assets/images/blog/3.png';
 import thumb4 from 'assets/images/blog/4.png';
+import {Link} from '../components/link.js'
+import { Button } from 'theme-ui';
 
 const data = [
   {
@@ -67,6 +69,12 @@ const Blog = () => {
             <BlogPost key={post.id} post={post} />
           ))}
         </Masonry>
+        <br />
+        <Box sx={styles.buttonWrapper}>
+        <br />
+        <Button > <Link path="/activities" sx={{color:"white",textDecoration:"none"}}> View All Activities </Link> </Button>
+      </Box>
+
       </Container>
     </Box>
   );

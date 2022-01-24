@@ -21,25 +21,32 @@ export default function Footer() {
               <Link path="#!">Privacy</Link>
             </Box>
             <Text as="p" sx={styles.copyright}>
-              Build by &copy; <a href="https://github.com/sa-y-an/deis" target="_blank">IEEE SB NITDgp 2022</a>
+              Build by &copy; 
+              <Link path="https://www.ieeesbnitdgp.com" sx={{color:"primary",textDecoration:"none"}}> IEEE SB NITDgp </Link>
             </Text>
           </Box>
             <div className="container">
-              <h2>
+              <h3>
                 Contact Info
-              </h2>
+              </h3>
               <ul>
-                <li> Email <br/> sivaji@ee.jdvu.ac.in  </li>
+                <li> Email <br/> 
+                <Text sx={{color:"primary",}}> sivaji@ee.jdvu.ac.in 
+                </Text>  
+                </li>
                 <li>
-                  Phone <br/> +91 33 2414 6948
+                  Phone <br/> 
+                  <Text sx={{color:"primary",}}>  +91 33 2414 6948
+                </Text>
+                 
                 </li>
               </ul>
             </div>
 
             <div className="container">
-              <h2>
+              <h3>
                 Location 
-              </h2>
+              </h3>
               <p>
               Flat No. 1E, Swati Kunj,
               3/1A Paddapukur Road
