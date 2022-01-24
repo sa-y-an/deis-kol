@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { useRef, useState, useEffect } from 'react';
-import { jsx, Box, Container, Image } from 'theme-ui';
+import { jsx, Box, Container, Image , Button } from 'theme-ui';
 import SwiperCore, { Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SectionHeading from 'components/section-heading';
@@ -11,6 +11,7 @@ import avatar2 from 'assets/images/team/member2.png';
 import avatar3 from 'assets/images/team/member3.png';
 import avatar4 from 'assets/images/team/member4.png';
 import arrowRight from 'assets/images/icons/arrow-right.png';
+import { Link } from 'components/link';
 
 SwiperCore.use([Navigation, Pagination]);
 
@@ -261,7 +262,14 @@ const OurTeam = () => {
           ))}
         </Swiper>
       </Box>
+      <Box sx={styles.buttonWrapper}>
+        <br />
+        <Button > <Link path="/members"> View All Members </Link> </Button>
+      </Box>
+      
+
     </Box>
+    
   );
 };
 
@@ -277,6 +285,9 @@ const styles = {
       maxWidth: 500,
       m: '10px auto 0',
     },
+  },
+  buttonWrapper: {
+    textAlign: ['center'],
   },
   teamWrapper: {
     position: 'relative',
