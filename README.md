@@ -10,12 +10,15 @@
 
 ```sh
 # install gatsby cli
-npx gatsby new gatsby-starter-hello-world https://github.com/gatsbyjs/gatsby-starter-hello-world 
+npm install -g gatsby-cli
+# check sucessfull installation using
+gatsby --version
+# now cd into the project folder
 # install dependencies by cd ing into the project
 yarn install
 # run gatsby develop
 gatsby develop
 ```
 
-> PS: Alternatively can be used with npm, but it causes some uses with version > 7 [see here for details](https://stackoverflow.com/questions/65549858/eresolve-unable-to-resolve-dependency-tree-when-installing-npm-react-facebook)
+> PS: Alternatively can be used with npm instead of yarn, but it causes some uses with version > 7 [see here for details](https://stackoverflow.com/questions/65549858/eresolve-unable-to-resolve-dependency-tree-when-installing-npm-react-facebook)
 
