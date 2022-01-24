@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../components/layout.js'
-import { Container,Box } from 'theme-ui';
+import { Container } from 'theme-ui';
 
 export default function activities() {
   return (
