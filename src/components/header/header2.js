@@ -4,8 +4,7 @@ import Sticky from 'react-stickynode';
 import Logo from 'components/logo';
 import { Link , NavLink} from 'components/link';
 import { DrawerProvider } from 'contexts/drawer/drawer-provider';
-import NavbarDrawer from './navbar-drawer';
-import menuItems from './header.data';
+import NavbarDrawer from './navbar-drawer2.js';
 
 export default function Header() {
   return (
@@ -40,9 +39,6 @@ export default function Header() {
                 </Box>
                   
                 </Box>
-                <Button variant="text" sx={styles.getStartedMobile}>
-                  Know More
-                </Button>
                 <NavbarDrawer />
               </Box>
             </Container>
