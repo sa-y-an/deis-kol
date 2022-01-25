@@ -72,7 +72,9 @@ const Blog = () => {
         <br />
         <Box sx={styles.buttonWrapper}>
         <br />
-        <Button > <Link path="/activities" sx={{color:"white",textDecoration:"none"}}> View All Activities </Link> </Button>
+        <Link path="/activities" sx={{color:"white",textDecoration:"none"}}> 
+            <Button > View All Activities  </Button>
+        </Link>
       </Box>
 
       </Container>

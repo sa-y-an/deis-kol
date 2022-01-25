@@ -264,7 +264,9 @@ const OurTeam = () => {
       </Box>
       <Box sx={styles.buttonWrapper}>
         <br />
-        <Button > <Link path="/members" sx={{color:"white",textDecoration:"none"}}> View All Members </Link> </Button>
+        <Link path="/members" sx={{color:"white",textDecoration:"none"}}>
+            <Button >  View All Members </Button>
+        </Link>
       </Box>
       
 

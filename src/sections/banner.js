@@ -18,11 +18,11 @@ const Banner = () => {
           />
           <Box sx={styles.illustration}>
             <Box sx={styles.buttonWrapper}>
+            <Link to="https://ieeedeis.org/" sx={{color:"white",textDecoration:"none"}}>
               <Button>
-                <Link to="https://ieeedeis.org/" sx={{color:"white",textDecoration:"none"}}>
-                  Visit IEEE DEIS
-                </Link>
+                Visit IEEE DEIS   
               </Button>
+              </Link>
             </Box>
             <Image src={illustration} alt="illustration" />
           </Box>
