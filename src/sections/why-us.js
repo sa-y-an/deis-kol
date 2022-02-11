@@ -11,89 +11,79 @@ const data = [
     id: 1,
     tabTitle: 'Educational & Students',
     title: `We will turn your idea in the successful business model framework`,
-    description: `Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever.`,
-    moreLink: '#explore-more',
-    image: tabImage1,
     list: [
-      'Medical and vision',
-      'Life insurance',
-      'HSAs and FSAs',
-      'Commuter benefits',
+      {
+        title: 'Lorem ipsum dolor sit amet',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        image: 'https://www.w3schools.com/w3css/img_lights.jpg',
+        date: `15 Sept '22`
+      },
+      {
+        title: 'Lorem ipsum dolor sit amet',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        image: 'https://www.w3schools.com/w3css/img_lights.jpg',
+        date: `15 Sept '22`
+      },
     ],
   },
   {
     id: 2,
     tabTitle: 'Membership & Seminar',
     title: `We will turn your idea in the successful business model framework`,
-    description: `Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever.`,
-    moreLink: '#explore-more',
-    image: tabImage1,
     list: [
-      'Medical and vision',
-      'Life insurance',
-      'HSAs and FSAs',
-      'Commuter benefits',
+      {
+        title: 'Lorem ipsum dolor sit amet',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        image: 'https://www.w3schools.com/w3css/img_lights.jpg',
+        date: `15 Sept '22`
+      },
+      {
+        title: 'Lorem ipsum dolor sit amet',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        image: 'https://www.w3schools.com/w3css/img_lights.jpg',
+        date: `15 Sept '22`
+      },
     ],
   },
   {
     id: 3,
     tabTitle: 'Public Affairs',
     title: `We will turn your idea in the successful business model framework`,
-    description: `Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever.`,
-    moreLink: '#explore-more',
-    image: tabImage1,
     list: [
-      'Medical and vision',
-      'Life insurance',
-      'HSAs and FSAs',
-      'Commuter benefits',
+      {
+        title: 'Lorem ipsum dolor sit amet',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        image: 'https://www.w3schools.com/w3css/img_lights.jpg',
+        date: `15 Sept '22`
+      },
+      {
+        title: 'Lorem ipsum dolor sit amet',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        image: 'https://www.w3schools.com/w3css/img_lights.jpg',
+        date: `15 Sept '22`
+      },
     ],
   },
+  {
+    id: 4,
+    tabTitle: 'Professional',
+    title: `We will turn your idea in the successful business model framework`,
+    list: [
+      {
+        title: 'Lorem ipsum dolor sit amet',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        image: 'https://www.w3schools.com/w3css/img_lights.jpg',
+        date: `15 Sept '22`
+      },
+      {
+        title: 'Lorem ipsum dolor sit amet',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        image: 'https://www.w3schools.com/w3css/img_lights.jpg',
+        date: `15 Sept '22`
+      },
+    ],
+  }
 ];
-
-const WhyUs = () => {
-  return (
-    <Box as="section" id="why-us" sx={styles.section}>
-      <Container>
-        <Tabs sx={styles.tabs} animated={{ tabPane: true }}>
-          {data?.map((item) => (
-            <TabPane
-              key={item.id}
-              tab={<Heading as="h4">{item.tabTitle}</Heading>}
-            >
-              <Box>
-                <Heading>{item.title}</Heading>
-                <Text as="p" sx={styles.description}>
-                  {item.description}
-                </Text>
-                <Box sx={styles.list}>
-                  {item.list.map((item, i) => (
-                    <Box key={i} className="list-item">
-                      <RiCheckboxCircleFill
-                        color="#3FDBB1"
-                        size="20px"
-                        sx={{ mr: 2 }}
-                      />
-                      <span>{item}</span>
-                    </Box>
-                  ))}
-                </Box>
-                <Box sx={styles.learnMore}>
-                  <LearnMore path={item.moreLink} label="Explore more" />
-                </Box>
-              </Box>
-              <Box sx={styles.illustration}>
-                <Image src={item.image} alt="illustration" />
-              </Box>
-            </TabPane>
-          ))}
-        </Tabs>
-      </Container>
-    </Box>
-  );
-};
-
-export default WhyUs;
 
 const styles = {
   section: {
@@ -134,11 +124,11 @@ const styles = {
       },
     },
     '.rc-tabs-tabpane': {
-      display: ['flex', null, null, 'grid'],
+      // display: ['flex', null, null, 'grid'],
       flexDirection: ['column-reverse', null, null, 'unset'],
       alignItems: 'center',
       justifyContent: 'center',
-      gridTemplateColumns: [null, null, null, '0.9fr 1.1fr'],
+      // gridTemplateColumns: [null, null, null, '0.9fr 1.1fr'],
       outline: 0,
       gap: [5, null, null, 11],
       h2: {
@@ -187,4 +177,95 @@ const styles = {
       maxWidth: ['65%', null, null, '100%', null, '90%', '100%'],
     },
   },
+  title: {
+    marginTop: ['50px'],
+    textAlign: 'center',
+    padding: '10px',
+  },
+  card: {
+    padding: '20px',
+    display: 'flex',
+    backgroundColor: 'white',
+    width: '95%',
+    margin: '20px auto',
+    borderRadius: '10px',
+    boxShadow: '0 4px 10px rgba(0,0,0,0.2)',
+    '@media screen and (max-width: 769px)': {
+      flexDirection: 'column',
+      width: '90%'
+    }
+  },
+  img: {
+    maxHeight: '200px',
+    maxWidth: 'min(250px, 100%)',
+    borderRadius: '10px',
+    '@media screen and (max-width: 769px)': {
+      margin: 'auto',
+    }
+  },
+  details: {
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+    padding: '0 0 0 25px',
+    width: '100%',
+
+    '& h6': {
+      color: '#482ff7',
+      padding: '5px 0'
+    },
+
+    '@media screen and (max-width: 768px)': {
+      padding: '20px 0 0 0',
+
+      '& h4': {
+        fontSize: '1.25rem'
+      }
+    }
+  },
+  txt: {
+    display: 'flex',
+    justifyContent: 'end',
+
+    '& > p': {
+      alignSelf: 'flex-end',
+      margin: '0',
+      color: '#101010'
+    },
+
+    '& > div > p': {
+      margin: '0',
+      color: '#606060'
+    }
+  },
 };
+
+export default function AnnouncementCard(props) {
+  return(
+    <Box as="section" id="why-us" sx={styles.section}>
+    <Container>
+      <Tabs sx={styles.tabs} animated={{ tabPane: true }}>
+        {data?.map((item) => (
+          <TabPane
+            key={item.id}
+            tab={<Heading as="h4">{item.tabTitle}</Heading>}
+          >
+            {item.list.map((activity) => (
+              <div className="card" sx={styles.card}>
+                <Image src={activity.image} alt="project" className="img" sx={styles.img}/>
+                <div className="details" sx={styles.details}>
+                  <Text as="h2">{activity.title}</Text>
+                  <Text as="p">{activity.description}</Text>
+                  <div className="txt" sx={styles.txt}>
+                    <Text as="p">{activity.date}</Text>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </TabPane>
+        ))}
+      </Tabs>
+    </Container>
+  </Box>
+  );
+} 
