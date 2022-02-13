@@ -5,83 +5,32 @@ import { RiCheckboxCircleFill } from 'react-icons/ri';
 import { rgba } from 'polished';
 import { LearnMore } from 'components/link';
 import tabImage1 from 'assets/images/tab-illustration-1.png';
+import eduList from '../../data/edu';
+import memList from '../../data/mem';
+import publicList from '../../data/public';
+import profList from '../../data/prof';
+
 
 const data = [
   {
     id: 1,
     tabTitle: 'Educational & Students',
-    title: `We will turn your idea in the successful business model framework`,
-    list: [
-      {
-        title: 'Lorem ipsum dolor sit amet',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-        image: 'https://www.w3schools.com/w3css/img_lights.jpg',
-        date: `15 Sept '22`
-      },
-      {
-        title: 'Lorem ipsum dolor sit amet',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-        image: 'https://www.w3schools.com/w3css/img_lights.jpg',
-        date: `15 Sept '22`
-      },
-    ],
+    list: eduList
   },
   {
     id: 2,
     tabTitle: 'Membership & Seminar',
-    title: `We will turn your idea in the successful business model framework`,
-    list: [
-      {
-        title: 'Lorem ipsum dolor sit amet',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-        image: 'https://www.w3schools.com/w3css/img_lights.jpg',
-        date: `15 Sept '22`
-      },
-      {
-        title: 'Lorem ipsum dolor sit amet',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-        image: 'https://www.w3schools.com/w3css/img_lights.jpg',
-        date: `15 Sept '22`
-      },
-    ],
+    list: memList
   },
   {
     id: 3,
     tabTitle: 'Public Affairs',
-    title: `We will turn your idea in the successful business model framework`,
-    list: [
-      {
-        title: 'Lorem ipsum dolor sit amet',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-        image: 'https://www.w3schools.com/w3css/img_lights.jpg',
-        date: `15 Sept '22`
-      },
-      {
-        title: 'Lorem ipsum dolor sit amet',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-        image: 'https://www.w3schools.com/w3css/img_lights.jpg',
-        date: `15 Sept '22`
-      },
-    ],
+    list: publicList
   },
   {
     id: 4,
     tabTitle: 'Professional',
-    title: `We will turn your idea in the successful business model framework`,
-    list: [
-      {
-        title: 'Lorem ipsum dolor sit amet',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-        image: 'https://www.w3schools.com/w3css/img_lights.jpg',
-        date: `15 Sept '22`
-      },
-      {
-        title: 'Lorem ipsum dolor sit amet',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-        image: 'https://www.w3schools.com/w3css/img_lights.jpg',
-        date: `15 Sept '22`
-      },
-    ],
+    list: profList
   }
 ];
 
