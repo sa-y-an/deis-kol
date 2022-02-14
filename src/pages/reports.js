@@ -1,13 +1,16 @@
-import React from 'react';
-import Layout from '../components/Layout2.js'
-import { Container, Box} from 'theme-ui';
+import React from "react";
+import Layout from "../components/Layout2.js";
+import { Container, Box } from "theme-ui";
+import "./report.css";
 
 export default function reports() {
-  return (
-      
-        <Layout>
-            <br /><br /><br /><br /><br /><br /><br />
-          <Container>
+	return (
+		<Layout>
+			<br />
+			<br />
+			<br />
+			<br />
+			{/*<Container>
             <div className="container" style={{minHeight : "60vh",width : "100vw"}}>
               <h2>
                 Year Wise Annual Reports
@@ -37,9 +40,64 @@ export default function reports() {
                 </Box>
             </div>
           </Container>
-          <hr />
-        </Layout>      
-      
-  );
+  <hr /> */}
+			<Container>
+				<h1>Year Wise Annual Reports</h1>
+				<table class="container">
+					<thead>
+						<tr>
+							<th>
+								<h1>Year</h1>
+							</th>
+							<th>
+								<h1>Link</h1>
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>2022</td>
+							<td>
+								<a href="https://ewh.ieee.org/r10/calcutta/deis/doc/Annual_Report_DEIS_2018.pdf">
+									Annual Report 2018
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>2021</td>
+							<td>
+								<a href="https://ewh.ieee.org/r10/calcutta/deis/doc/Annual_Report_DEIS_2018.pdf">
+									Annual Report 2018
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>2020</td>
+							<td>
+								<a href="https://ewh.ieee.org/r10/calcutta/deis/doc/Annual_Report_DEIS_2018.pdf">
+									Annual Report 2018
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>2019</td>
+							<td>
+								<a href="https://ewh.ieee.org/r10/calcutta/deis/doc/Annual_Report_DEIS_2018.pdf">
+									Annual Report 2018
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>2018</td>
+							<td>
+								<a href="https://ewh.ieee.org/r10/calcutta/deis/doc/Annual_Report_DEIS_2018.pdf">
+									Annual Report 2018
+								</a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</Container>
+		</Layout>
+	);
 }
-
