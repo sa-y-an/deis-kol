@@ -23,7 +23,6 @@
     "rc-drawer": "^4.2.2",
     "rc-tabs": "^11.7.3",
     "react": "^17.0.1",
-    "react-bootstrap": "^2.1.2",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "react-icons": "^4.1.0",
@@ -43,15 +42,5 @@
     "dev": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve"
-  },
-  "main": "gatsby-config.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/durbar2003/deis.git"
-  },
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/durbar2003/deis/issues"
-  },
-  "homepage": "https://github.com/durbar2003/deis#readme"
+  }
 }
