@@ -13,7 +13,7 @@ export default function activities() {
         <Box sx={styles.contentWrapper}>
           <SectionHeading
             sx={styles.heading}
-            title="A.G.M"
+            title="Technical meeting"
             description="Get your info tests delivered at home collect a sample from the your progress tests."
           />    
           <table class="container">
